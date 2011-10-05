@@ -22,7 +22,7 @@ public class PostTest extends UnitTest {
 	@Test
 	public void doPost() {
 		// create a user
-		String email = "bob@gmail.com";
+		String email = "bob@gmail.com";	
 		// check user
 		assertNotNull(User.find("byEmail", email).first());
 		// negative test

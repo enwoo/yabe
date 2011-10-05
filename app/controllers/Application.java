@@ -1,16 +1,13 @@
 package controllers;
 
-import play.*;
-import play.mvc.*;
-
-import java.util.*;
-
-import models.*;
+import models.User;
+import play.mvc.Controller;
 
 public class Application extends Controller {
 
     public static void index() {
-        render();
+    	User u = new User("bob@gmail.com","secret","boby",false);
+        renderJSON(u);
     }
 
 }
