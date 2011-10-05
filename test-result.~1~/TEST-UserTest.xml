@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<testsuite failures="0" time="0.344" errors="0" skipped="0" tests="3" name="UserTest">
+  <testcase classname="UserTest" name="createAndRetrieveUser" time="0.108">
+      </testcase>
+  <testcase classname="UserTest" name="insertionMultipleDuMemeUtilisateur" time="0.097">
+      </testcase>
+  <testcase classname="UserTest" name="connectUser" time="0.139">
+      </testcase>
+</testsuite>

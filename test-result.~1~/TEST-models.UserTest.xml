@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<testsuite failures="0" time="1.345" errors="0" skipped="0" tests="3" name="models.UserTest">
+  <testcase classname="models.UserTest" name="insertionMultipleDuMemeUtilisateur" time="0.961">
+      </testcase>
+  <testcase classname="models.UserTest" name="createAndRetrieveUser" time="0.236">
+      </testcase>
+  <testcase classname="models.UserTest" name="connectUser" time="0.148">
+      </testcase>
+</testsuite>

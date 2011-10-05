@@ -1,0 +1,23 @@
+04 oct. 2011 21:19:27,783 INFO  ~ Starting /home/enwoo/projets/workspace/yabe
+04 oct. 2011 21:19:29,613 WARN  ~ You're running Play! in DEV mode
+04 oct. 2011 21:19:29,943 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+04 oct. 2011 21:19:37,421 INFO  ~ Connected to jdbc:mysql://localhost/yabe?useUnicode=yes&characterEncoding=UTF-8&connectionCollation=utf8_general_ci
+04 oct. 2011 21:19:40,450 INFO  ~ Application 'yabe' is now started !
+04 oct. 2011 21:34:09,649 ERROR ~ 
+
+@681jbge4m
+Internal Server Error (500) for request GET /@documentation/main
+
+Compilation error (In /test/models/PostTest.java around line 32)
+The file /test/models/PostTest.java could not be compiled. Error raised is : jdoe cannot be resolved to a variable
+
+play.exceptions.CompilationException: jdoe cannot be resolved to a variable
+	at play.classloading.ApplicationCompiler$2.acceptResult(ApplicationCompiler.java:246)
+	at org.eclipse.jdt.internal.compiler.Compiler.handleInternalException(Compiler.java:672)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:516)
+	at play.classloading.ApplicationCompiler.compile(ApplicationCompiler.java:278)
+	at play.classloading.ApplicationClasses$ApplicationClass.compile(ApplicationClasses.java:249)
+	at play.classloading.ApplicationClassloader.detectChanges(ApplicationClassloader.java:310)
+	at play.Play.detectChanges(Play.java:595)
+	at play.Invoker$Invocation.init(Invoker.java:186)
+	at Invocation.HTTP Request(Play!)
