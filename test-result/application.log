@@ -1,44 +1,26 @@
-04 oct. 2011 23:52:47,511 INFO  ~ Starting /home/enwoo/projets/workspace/yabe
-04 oct. 2011 23:52:49,842 WARN  ~ You're running Play! in DEV mode
-04 oct. 2011 23:52:50,093 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
-04 oct. 2011 23:52:57,394 INFO  ~ Connected to jdbc:mysql://localhost/yabe?useUnicode=yes&characterEncoding=UTF-8&connectionCollation=utf8_general_ci
-04 oct. 2011 23:53:01,661 INFO  ~ Application 'yabe' is now started !
-04 oct. 2011 23:53:12,824 DEBUG ~ insert into User (email, fullName, isAdmin, password) values (?, ?, ?, ?)
-04 oct. 2011 23:53:12,929 DEBUG ~ insert into User (email, fullName, isAdmin, password) values (?, ?, ?, ?)
-04 oct. 2011 23:53:13,376 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.id=? limit ?
-04 oct. 2011 23:53:13,491 DEBUG ~ insert into Post (author_id, content, postedAt, title) values (?, ?, ?, ?)
-04 oct. 2011 23:53:13,555 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.id=? limit ?
-04 oct. 2011 23:53:13,568 DEBUG ~ insert into Post (author_id, content, postedAt, title) values (?, ?, ?, ?)
-04 oct. 2011 23:53:13,590 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.email=? limit ?
-04 oct. 2011 23:53:13,638 DEBUG ~ select count(*) as col_0_0_ from Post post0_ where email=? limit ?
-04 oct. 2011 23:53:13,654 WARN  ~ SQL Error: 1054, SQLState: 42S22
-04 oct. 2011 23:53:13,655 ERROR ~ Unknown column 'email' in 'where clause'
-04 oct. 2011 23:57:27,565 DEBUG ~ insert into User (email, fullName, isAdmin, password) values (?, ?, ?, ?)
-04 oct. 2011 23:57:27,604 DEBUG ~ insert into User (email, fullName, isAdmin, password) values (?, ?, ?, ?)
-04 oct. 2011 23:57:27,639 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.id=? limit ?
-04 oct. 2011 23:57:27,655 DEBUG ~ insert into Post (author_id, content, postedAt, title) values (?, ?, ?, ?)
-04 oct. 2011 23:57:27,683 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.id=? limit ?
-04 oct. 2011 23:57:27,710 DEBUG ~ insert into Post (author_id, content, postedAt, title) values (?, ?, ?, ?)
-04 oct. 2011 23:57:27,747 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.email=? limit ?
-04 oct. 2011 23:57:27,861 DEBUG ~ select count(*) as col_0_0_ from Post post0_ cross join User user1_ where post0_.author_id=user1_.id and user1_.email=? limit ?
-04 oct. 2011 23:58:13,046 DEBUG ~ insert into User (email, fullName, isAdmin, password) values (?, ?, ?, ?)
-04 oct. 2011 23:58:13,087 DEBUG ~ insert into User (email, fullName, isAdmin, password) values (?, ?, ?, ?)
-04 oct. 2011 23:58:13,113 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.id=? limit ?
-04 oct. 2011 23:58:13,135 DEBUG ~ insert into Post (author_id, content, postedAt, title) values (?, ?, ?, ?)
-04 oct. 2011 23:58:13,161 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.id=? limit ?
-04 oct. 2011 23:58:13,199 DEBUG ~ insert into Post (author_id, content, postedAt, title) values (?, ?, ?, ?)
-04 oct. 2011 23:58:13,216 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.email=? limit ?
-04 oct. 2011 23:58:13,220 DEBUG ~ select count(*) as col_0_0_ from Post post0_ cross join User user1_ where post0_.author_id=user1_.id and user1_.email=? limit ?
-04 oct. 2011 23:58:13,242 DEBUG ~ select post0_.id as id2_, post0_.author_id as author5_2_, post0_.content as content2_, post0_.postedAt as postedAt2_, post0_.title as title2_ from Post post0_ cross join User user1_ where post0_.author_id=user1_.id and user1_.email=?
-04 oct. 2011 23:58:13,853 DEBUG ~ insert into User (email, fullName, isAdmin, password) values (?, ?, ?, ?)
-04 oct. 2011 23:58:13,860 DEBUG ~ insert into User (email, fullName, isAdmin, password) values (?, ?, ?, ?)
-04 oct. 2011 23:58:13,868 WARN  ~ SQL Error: 1062, SQLState: 23000
-04 oct. 2011 23:58:13,868 ERROR ~ Duplicate entry 'testConstraint@gmail.com' for key 'email'
-04 oct. 2011 23:58:14,071 DEBUG ~ insert into User (email, fullName, isAdmin, password) values (?, ?, ?, ?)
-04 oct. 2011 23:58:14,075 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.email=? limit ?
-04 oct. 2011 23:58:14,077 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.email=? limit ?
-04 oct. 2011 23:58:14,263 DEBUG ~ insert into User (email, fullName, isAdmin, password) values (?, ?, ?, ?)
-04 oct. 2011 23:58:14,273 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.email=? and user0_.password=? limit ?
-04 oct. 2011 23:58:14,276 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.email=? and user0_.password=? limit ?
-04 oct. 2011 23:58:14,278 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.email=? and user0_.password=? limit ?
-04 oct. 2011 23:58:14,282 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.email=? and user0_.password=? limit ?
+05 oct. 2011 23:26:51,774 INFO  ~ Starting /home/enwoo/projets/workspace/yabe
+05 oct. 2011 23:26:54,027 WARN  ~ You're running Play! in DEV mode
+05 oct. 2011 23:26:54,479 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+05 oct. 2011 23:28:50,411 INFO  ~ Connected to jdbc:mysql://localhost/yabe?useUnicode=yes&characterEncoding=UTF-8&connectionCollation=utf8_general_ci
+05 oct. 2011 23:28:55,783 INFO  ~ Application 'yabe' is now started !
+05 oct. 2011 23:29:14,284 DEBUG ~ insert into User (email, fullName, isAdmin, password) values (?, ?, ?, ?)
+05 oct. 2011 23:29:14,400 DEBUG ~ insert into User (email, fullName, isAdmin, password) values (?, ?, ?, ?)
+05 oct. 2011 23:29:14,962 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.id=? limit ?
+05 oct. 2011 23:29:15,058 DEBUG ~ insert into Post (author_id, content, postedAt, title) values (?, ?, ?, ?)
+05 oct. 2011 23:29:15,159 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.id=? limit ?
+05 oct. 2011 23:29:15,174 DEBUG ~ insert into Post (author_id, content, postedAt, title) values (?, ?, ?, ?)
+05 oct. 2011 23:29:15,213 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.email=? limit ?
+05 oct. 2011 23:29:15,270 DEBUG ~ select count(*) as col_0_0_ from Post post0_ cross join User user1_ where post0_.author_id=user1_.id and user1_.email=? limit ?
+05 oct. 2011 23:29:15,297 DEBUG ~ select post0_.id as id2_, post0_.author_id as author5_2_, post0_.content as content2_, post0_.postedAt as postedAt2_, post0_.title as title2_ from Post post0_ cross join User user1_ where post0_.author_id=user1_.id and user1_.email=?
+05 oct. 2011 23:29:16,824 DEBUG ~ insert into User (email, fullName, isAdmin, password) values (?, ?, ?, ?)
+05 oct. 2011 23:29:16,830 DEBUG ~ insert into User (email, fullName, isAdmin, password) values (?, ?, ?, ?)
+05 oct. 2011 23:29:16,849 WARN  ~ SQL Error: 1062, SQLState: 23000
+05 oct. 2011 23:29:16,850 ERROR ~ Duplicate entry 'testConstraint@gmail.com' for key 'email'
+05 oct. 2011 23:29:17,069 DEBUG ~ insert into User (email, fullName, isAdmin, password) values (?, ?, ?, ?)
+05 oct. 2011 23:29:17,073 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.email=? limit ?
+05 oct. 2011 23:29:17,075 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.email=? limit ?
+05 oct. 2011 23:29:17,278 DEBUG ~ insert into User (email, fullName, isAdmin, password) values (?, ?, ?, ?)
+05 oct. 2011 23:29:17,290 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.email=? and user0_.password=? limit ?
+05 oct. 2011 23:29:17,294 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.email=? and user0_.password=? limit ?
+05 oct. 2011 23:29:17,298 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.email=? and user0_.password=? limit ?
+05 oct. 2011 23:29:17,301 DEBUG ~ select user0_.id as id1_, user0_.email as email1_, user0_.fullName as fullName1_, user0_.isAdmin as isAdmin1_, user0_.password as password1_ from User user0_ where user0_.email=? and user0_.password=? limit ?
