@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<testsuite failures="0" time="0.448" errors="0" skipped="0" tests="1" name="models.PostTest">
-  <testcase classname="models.PostTest" name="doPost" time="0.448">
+<testsuite failures="0" time="1.805" errors="0" skipped="0" tests="1" name="models.PostTest">
+  <testcase classname="models.PostTest" name="doPost" time="1.805">
       </testcase>
 </testsuite>

@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<testsuite failures="0" time="1.112" errors="0" skipped="0" tests="1" name="ApplicationTest">
-  <testcase classname="ApplicationTest" name="testThatIndexPageWorks" time="1.112">
-      </testcase>
+<testsuite failures="1" time="0.218" errors="0" skipped="0" tests="0" name="ApplicationTest">
+  <testcase classname="ApplicationTest" name="testThatIndexPageWorks" time="0.218">
+                  <failure type="" message="Failure, Response contentType unmatched : &apos;text/html&apos; !~ &apos;application/json; charset=utf-8&apos;">
+        <![CDATA[
+          In /test/ApplicationTest.java, line 13
+          
+                      assertContentType("text/html", response); :
+          
+        ]]>
+        </failure>
+        }
+                  </testcase>
 </testsuite>

@@ -1,4 +1,13 @@
 #{extends 'main.html' /}
 #{set title:'Home' /}
-super lolo
-#{welcome /}
+#{if frontPost}
+news : 
+<p>${frontPost.author.fullName}</p>
+#{/if}
+
+#{if olderPosts.size() > 1 }
+vieux post :
+	#{list items:olderPosts, as:'oldPost'}
+		by ${oldPost.author.fullName}
+	#{/list}
+#{/if}
